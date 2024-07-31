@@ -1,0 +1,49 @@
+{"Product":[
+    {
+      "id": 1,
+      "quantity": 0,
+      "name": "Product Name 1",
+      "description": "Description of Product 1",
+      "price": 0.00,
+      "image": "url_to_image_1",
+      "category":""
+
+    },
+    {
+      "id": 2,
+      "quantity": 0,
+      "name": "Product Name 2",
+      "description": "Description of Product 2",
+      "price": 0.00,
+      "image": "url_to_image_2",
+      "category":""
+    },
+    {
+      "id": 3,
+      "quantity": 0,
+      "name": "Product Name 3",
+      "description": "Description of Product 3",
+      "price": 0.00,
+      "image": "url_to_image_3",
+      "category":""
+    }
+  ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+  
