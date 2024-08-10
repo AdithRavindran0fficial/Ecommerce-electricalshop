@@ -24,8 +24,8 @@ function Navbar() {
         {/* menu items */}
         <ul className='hidden items-center  space-x-14 font-medium lg:flex'>
           <li className='text-gray-900 text-xl font-bold tracking-wide hover:text-gray-700'>home</li>
-          <li className='text-gray-400 text-lg font-medium hover:text-gray-900'onClick={handle_cat}>products</li>
-          <li className='text-gray-400 text-lg font-medium hover:text-gray-900'>Brands</li>
+          <li className='text-gray-900 text-xl font-bold tracking-wide hover:text-gray-700'onClick={handle_cat}>products</li>
+          <li className='text-gray-900 text-xl font-bold tracking-wide hover:text-gray-700'>our story</li>
         </ul>
         <ul className='hidden items-center  space-x-10 font-medium lg:flex'>
           <li className='text-gray-400 text-lg font-medium hover:text-gray-900'><FaShoppingCart/></li>
@@ -38,7 +38,7 @@ function Navbar() {
         </div>
 
       </div>
-      {toggle_cat&&<div className='hidden container bg-slate-200 lg:block'>
+      {toggle_cat&&<div className='hidden container relative top-0 bg-slate-200 lg:block'>
         <ul className='flex justify-around border space-x-10 py-20'>
           <li onClick={handle_cat} >Wiring and Cables</li>
           <li  onClick={handle_cat}>Lighting </li>
